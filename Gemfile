@@ -20,6 +20,8 @@ gem 'twitter-bootstrap-rails'
 # Use Devise for authentication
 gem 'devise', '3.4.1'
 
+gem 'omniauth', '1.2.2'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

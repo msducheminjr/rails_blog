@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, controllers: {sessions: 'users/sessions', passwords: 
+    'users/passwords', registrations: 'users/registrations', confirmations: 
+    'users/confirmations', unlocks: 'users/unlocks', omniauth_callbacks: 
+    'users/omniauth_callbacks'}
   # get 'welcome/index'
  
   resources :articles
